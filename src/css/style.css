@@ -591,7 +591,7 @@ html {
   position: absolute;
   top: 150px;
   right: 76px;
-  z-index: 1;
+  z-index: 5;
 }
 
 /* line 117, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
@@ -1008,20 +1008,251 @@ html {
 
 @media (max-width: 991px) {
   /* line 368, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .main-section {
+    min-height: 530px;
+  }
+  /* line 370, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .main-section__first-elipse {
+    top: 70px;
+  }
+  /* line 372, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .main-section__second-elipse {
+    top: 400px;
+  }
+  /* line 374, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
   .container {
     width: 720px;
+  }
+  /* line 377, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .left-wrapper img {
+    width: 550px;
+  }
+  /* line 379, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .left-wrapper__rectangle-blue {
+    width: 380px;
+    height: 130px;
+  }
+  /* line 382, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .left-wrapper__rectangle-orange {
+    width: 410px;
+    height: 130px;
+  }
+  /* line 385, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .left-wrapper__rectangle-grey {
+    width: 380px;
+    height: 130px;
+  }
+  /* line 389, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .title {
+    font-size: 60px;
+  }
+  /* line 391, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .right-wrapper {
+    top: 75px;
+    width: 300px;
+  }
+  /* line 394, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .right-wrapper__text {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  /* line 398, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .buttons__main-btn {
+    font-size: 14px;
+    margin-right: 10px;
+    height: 50px;
+    width: 160px;
+  }
+  /* line 403, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .buttons__icon-btn {
+    font-size: 14px;
+  }
+  /* line 405, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .elipse {
+    width: 150px;
+    height: 150px;
+  }
+  /* line 408, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .elipse__subtract {
+    width: 110px;
+    height: 110px;
+  }
+  /* line 411, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .elipse__subtract_big {
+    width: 170px;
+    height: 170px;
+  }
+  /* line 414, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .elipse_big {
+    width: 250px;
+    height: 250px;
+  }
+  /* line 418, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .second-section {
+    min-height: 450px;
+  }
+  /* line 420, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .second-section__container {
+    padding-top: 20px;
+  }
+  /* line 422, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .second-section__title {
+    margin-bottom: 25px;
+  }
+  /* line 424, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .second-section__cards-box {
+    margin-bottom: 10px;
+  }
+  /* line 426, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .second-section__first-elipse {
+    right: -35px;
+  }
+  /* line 428, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .second-section__second-elipse {
+    top: 262px;
+    left: -35px;
+  }
+  /* line 431, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .cards-item {
+    width: 220px;
+    height: 220px;
+  }
+  /* line 434, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .cards-item__img {
+    height: 200px;
+  }
+  /* line 436, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .cards-item__text {
+    top: 92px;
+    font-size: 22px;
+    right: -75px;
+  }
+  /* line 441, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .icons-item__img {
+    width: 50px;
+  }
+  /* line 443, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .icons-item__text {
+    font-size: 14px;
+  }
+  /* line 445, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .icons-item span {
+    font-size: 30px;
+  }
+  /* line 448, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .third-section {
+    min-height: 510px;
+  }
+  /* line 450, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .third-section__left-title {
+    display: none;
+  }
+  /* line 452, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .third-section__right-wrapper {
+    max-width: 600px;
+  }
+  /* line 454, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .third-section__container {
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  /* line 458, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .third-section__right-title {
+    margin-bottom: 10px;
+  }
+  /* line 462, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .title__hr_top {
+    bottom: 60px;
+  }
+  /* line 466, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .footer__img {
+    width: 500px;
+  }
+  /* line 468, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .footer__title {
+    margin-bottom: 10px;
+  }
+  /* line 470, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .footer__container {
+    min-height: 210px;
   }
 }
 
 @media (max-width: 767px) {
-  /* line 372, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  /* line 474, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
   .container {
     width: 540px;
+  }
+  /* line 476, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .nav-menu {
+    position: fixed;
+    width: 50%;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    background: #5290EA;
+    z-index: 20;
+    transition: 0.6s all;
+  }
+  /* line 485, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .nav-menu__list {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+  }
+  /* line 490, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .nav-menu__list-item {
+    margin-right: 0;
+    font-size: 20px;
+  }
+  /* line 493, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .hamburger {
+    width: 30px;
+    position: fixed;
+    top: 40px;
+    right: 30px;
+    height: 14px;
+    z-index: 22;
+  }
+  /* line 500, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .hamburger span {
+    height: 2px;
+    width: 100%;
+    display: block;
+    background: black;
+    margin-bottom: 4px;
+    transition: 1s all;
+  }
+  /* line 507, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .hamburger span:last-child {
+    margin-bottom: 0;
+  }
+  /* line 510, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 512, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 514, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 516, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  /* line 519, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  .nav-menu_active {
+    right: 0;
   }
 }
 
 @media (max-width: 575px) {
-  /* line 376, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
+  /* line 524, ../../../../../../../../../../../../../Users/mac/Desktop/Guitar site/landing-page-guitar-school/src/sass/style.sass */
   .container {
     width: 100%;
   }
